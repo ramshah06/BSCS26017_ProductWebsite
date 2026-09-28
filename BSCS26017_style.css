@@ -1,0 +1,169 @@
+/* Basic Page Setup */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: snow;
+    color: darkslategray;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: mistyrose;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: saddlebrown;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: crimson;
+}
+
+/* Image Containers */
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.container img {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* Text on Image 1 */
+.overlay-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: saddlebrown;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Button on Image 2 */
+.overlay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: palevioletred;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.overlay-button:hover {
+    background-color: crimson;
+}
+
+/* Footer Styling */
+footer {
+    background-color:mistyrose;
+    color: saddlebrown;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+body {
+    background-image: url('BSCS26017_image7.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    color: saddlebrown;
+    margin-top: 30px;
+}
+
+/* Horizontal Product Boxes */
+.product-box {
+    display: flex;
+    align-items: center;
+    background-color: snow; /* Light background color */
+    margin: 25px auto;
+    padding: 20px;
+    width: 85%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Image */
+.product-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-right: 25px;
+}
+
+/* Product Text Information */
+.product-info {
+    text-align: left;
+}
+
+.product-info h2 {
+    margin-top: 0;
+    color: saddlebrown;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkslategray;
+    margin: 5px 0;
+}
+
+.status {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.in-stock {
+    color: forestgreen;
+}
+
+.out-of-stock {
+    color: crimson;
+}
+
+.description {
+    color: dimgray;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.contact-card {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
